@@ -1,0 +1,37 @@
+.banner {
+  padding: 260px 0 100px 0;
+  background-image: url('../assets/img/Portfolio-banner.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #423e3e;
+}
+h1 span{
+  color: #27c4c4;
+}
