@@ -1,4 +1,4 @@
-import "./NavbarStyles.css";
+import "../assets/styles/navbar.css";
 import {Container, Nav, Navbar} from "react-bootstrap";
 import Logo from "../assets/img/Logo.png";
 import {useState, useEffect} from "react";
