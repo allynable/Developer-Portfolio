@@ -1,8 +1,19 @@
 import "../assets/styles/banner.css";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImage from "../assets/img/Profile.png";
-import { FaGithubSquare, FaLinkedin, FaHtml5, FaCss3,  } from "react-icons/fa";
-import { SiSpringboot,SiSpring, SiReact, SiMysql, SiJavascript } from "react-icons/si";
+import ProfileImage from "../assets/img/Profile.png";
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaHtml5,
+  FaCss3,
+} from "react-icons/fa";
+import {
+  SiSpringboot,
+  SiSpring,
+  SiReact,
+  SiMysql,
+  SiJavascript,
+} from "react-icons/si";
 
 const Banner = () => {
   return (
@@ -69,10 +80,9 @@ const Banner = () => {
                 </Row>
               </Col>
             </Row>
-            <Row></Row>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImage} alt="Header Img" />
+            <img src={ProfileImage} alt="Profile" />
           </Col>
         </Row>
       </Container>
