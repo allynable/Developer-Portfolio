@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaHtml5,
   FaCss3,
+  FaRegArrowAltCircleRight,
 } from "react-icons/fa";
 import {
   SiSpringboot,
