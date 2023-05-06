@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developer-portfolio/static/css/main.e06e4910.css",
-    "main.js": "/developer-portfolio/static/js/main.88a0e844.js",
+    "main.js": "/developer-portfolio/static/js/main.fa61b795.js",
     "static/js/787.fb771931.chunk.js": "/developer-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/prcbbmis-banner.png": "/developer-portfolio/static/media/prcbbmis-banner.3e1fdfdc89214c78839f.png",
     "static/media/tumandok-banner.png": "/developer-portfolio/static/media/tumandok-banner.305529ea6fb3bfca0610.png",
@@ -18,11 +18,11 @@
     "static/media/Contact.png": "/developer-portfolio/static/media/Contact.da93abb3cc3985cb361d.png",
     "index.html": "/developer-portfolio/index.html",
     "main.e06e4910.css.map": "/developer-portfolio/static/css/main.e06e4910.css.map",
-    "main.88a0e844.js.map": "/developer-portfolio/static/js/main.88a0e844.js.map",
+    "main.fa61b795.js.map": "/developer-portfolio/static/js/main.fa61b795.js.map",
     "787.fb771931.chunk.js.map": "/developer-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e06e4910.css",
-    "static/js/main.88a0e844.js"
+    "static/js/main.fa61b795.js"
   ]
 }
