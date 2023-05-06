@@ -6,7 +6,6 @@ import {
   FaLinkedin,
   FaHtml5,
   FaCss3,
-  FaRegArrowAltCircleRight,
 } from "react-icons/fa";
 import {
   SiSpringboot,
@@ -66,7 +65,7 @@ const Banner = () => {
               </Col>
               <Col xs={12} md={6}>
                 <Row>
-                  <h4>Languages</h4>
+                  <h4>Skills</h4>
                 </Row>
                 <Row>
                   <Col>
