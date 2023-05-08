@@ -40,44 +40,48 @@ const Banner = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={3}>
+          <Col xs={12} md={12} xl={7}>
             <Row>
-              <h4>Find me in</h4>
-            </Row>
-            <Row>
-              <Col>
-                <a
-                  href="https://github.com/allynable?tab=repositories"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithubSquare className="social-icons"></FaGithubSquare>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/allyn-able/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin className="social-icons"></FaLinkedin>
-                </a>
+          <Col xs={12} md={6}>
+                <Row>
+                  <h4>Find me in</h4>
+                </Row>
+                <Row>
+                  <Col>
+                    <a
+                      href="https://github.com/allynable?tab=repositories"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithubSquare className="social-icons"></FaGithubSquare>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/allyn-able/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaLinkedin className="social-icons"></FaLinkedin>
+                    </a>
+                  </Col>
+                </Row>
               </Col>
-            </Row>
-          </Col>
-          <Col xs={12} md={3}>
-            <Row>
-              <h4>Skills</h4>
-            </Row>
-            <Row>
-              <Col>
-                <SiSpringboot className="skills-icon"></SiSpringboot>
-                <SiSpring className="skills-icon"></SiSpring>
-                <SiReact className="skills-icon"></SiReact>
-                <SiMysql className="skills-icon"></SiMysql>
-                <FaHtml5 className="skills-icon"></FaHtml5>
-                <SiJavascript className="skills-icon"></SiJavascript>
-                <FaCss3 className="skills-icon"></FaCss3>
+              <Col xs={12} md={6}>
+                <Row>
+                  <h4>Skills</h4>
+                </Row>
+                <Row>
+                  <Col>
+                    <SiSpringboot className="skills-icon"></SiSpringboot>
+                    <SiSpring className="skills-icon"></SiSpring>
+                    <SiReact className="skills-icon"></SiReact>
+                    <SiMysql className="skills-icon"></SiMysql>
+                    <FaHtml5 className="skills-icon"></FaHtml5>
+                    <SiJavascript className="skills-icon"></SiJavascript>
+                    <FaCss3 className="skills-icon"></FaCss3>
+                  </Col>
+                </Row>
               </Col>
-            </Row>
+              </Row>
           </Col>
         </Row>
       </Container>

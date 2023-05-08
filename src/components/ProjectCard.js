@@ -2,17 +2,17 @@ import React from "react";
 import { Col } from "react-bootstrap";
 import { FaGithub } from "react-icons/fa";
 
-export const ProjectCard = ({ title, imageUrl, details, githubLink }) => {
+export const ProjectCard = (props) => {
   return (
-    <Col sm={4}>
+    <Col sm={12} md={6} lg={4}>
       <div className="proj-imgbx">
-        <img src={imageUrl} className="img-fluid" alt="" />
+        <img src={props.imageUrl} className="img-fluid" alt="" />
         <div className="proj-txtx">
-          <h4>{title}</h4>
-          <span>{details}</span>
+          <h4>{props.title}</h4>
+          <span>{props.details}</span>
           <br />
-          {githubLink ? (
-            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          {props.githubLink ? (
+            <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
               <FaGithub
                 size={28}
                 className="social-icons mt-5"

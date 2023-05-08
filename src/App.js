@@ -6,6 +6,7 @@ import PreLoader from "./components/PreLoader";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Banner />
+        <About />
         <Projects />
         <Contact />
         <Footer />
