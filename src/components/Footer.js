@@ -10,7 +10,14 @@ const Footer = () => {
       <Container>
         <Row className="align-item-center">
           <Col size={12} sm={6}>
-            <img src={Initials} alt="Logo" className="logo" />
+            <Row>
+              <img src={Initials} alt="Logo" className="logo" />
+              <Col sm={7} className="info">
+                <p>
+                  Developed using React and Bootstrap <br /> by Allyn Able
+                </p>
+              </Col>
+            </Row>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">

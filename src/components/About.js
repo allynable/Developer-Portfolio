@@ -20,7 +20,14 @@ const About = () => {
                 title="Master of Science in Computing"
                 details="University of Roehampton"
                 date="December 2022 - December 2024"
-                content={[]}
+                content={[
+                    "Front End Development & Programming (HTML, CSS, JavaScript)",
+                    "UI Frameworks (Axure RP, Bootstrap)",
+                    "Database Design Development (MySQL, RDBMS)", 
+                    "Web Development Foundations (Spring MVC)",
+                    "Web development using platforms (Liferay)",
+                    "API Application Integration (Spring Boot, ReactJS, Rest API, Postman)"
+                ]}
               ></AboutCard>
               <AboutCard
                 title="Post Graduate Diploma in Software Engineering"

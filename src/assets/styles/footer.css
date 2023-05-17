@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
   }
 
-.footer img {
+.footer .logo{
     width: 20%;
 }
 
@@ -14,5 +14,15 @@
     font-size: 14px;
     color: #B8B8B8;
     letter-spacing: 0.5px;
+}
 
+.footer .info{
+    display: flex;
+    align-items: center;
+    
+}
+.footer .info p{
+    color: #B8B8B8;
+    font-weight: 400;
+    letter-spacing: 1px;
 }

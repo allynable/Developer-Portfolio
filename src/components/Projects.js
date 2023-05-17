@@ -5,15 +5,21 @@ import projectImg2 from "../assets/img/boutiqa-banner.png";
 import projectImg3 from "../assets/img/prcbbmis-banner.png";
 import projectImg4 from "../assets/img/tumandok-banner.png";
 import projectImg5 from "../assets/img/online-portal.png";
+import projectImg6 from "../assets/img/kyn-react.png";
 import { ProjectCard } from "./ProjectCard";
 import "../assets/styles/projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: "Silent Library",
-      imageUrl: projectImg1,
-      details: "HTML, CSS, Javascript",
-      githubLink: "https://github.com/allynable/Silent-Library",
+      title: "Know-Your-Neighborhood",
+      imageUrl: projectImg6,
+      details: "ReactJs, Bootstrap, Spring Boot",
+      githubLink: "https://github.com/allynable/KYN-React",
+    },
+    {
+      title: "Online News Portal",
+      imageUrl: projectImg5,
+      details: "Liferay",
     },
     {
       title: "Boutiqa - Ecommerce Portal",
@@ -22,21 +28,22 @@ const Projects = () => {
       githubLink: "https://github.com/allynable/spring-boutiqa",
     },
     {
-        title: "Online News Portal",
-        imageUrl: projectImg5,
-        details: "Liferay"        
-    },
-    {
-      title: "Philippine Red Cross Blood Bank Management Information System",
-      imageUrl: projectImg3,
-      details: "PHP, Bootstrap, MySQL",
-        githubLink: "https://github.com/allynable/prcbbmis",
+      title: "Silent Library",
+      imageUrl: projectImg1,
+      details: "HTML, CSS, Javascript",
+      githubLink: "https://github.com/allynable/Silent-Library",
     },
     {
       title: "Tumandok Craft Industries Website",
       imageUrl: projectImg4,
       details: "PHP, Bootstrap, MySQL",
       githubLink: "https://github.com/allynable/tci",
+    },
+    {
+      title: "Philippine Red Cross Blood Bank Management Information System",
+      imageUrl: projectImg3,
+      details: "PHP, Bootstrap, MySQL",
+      githubLink: "https://github.com/allynable/prcbbmis",
     }
   ];
   return (
