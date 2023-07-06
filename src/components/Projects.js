@@ -13,7 +13,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Meals On Wheels",
-      imageUrl: projectImg3,
+      imageUrl: projectImg7,
       details: "ReactJs, Bootstrap, Spring Boot",
       githubLink: "https://github.com/allynable/MerryMeals"
     },
@@ -25,7 +25,7 @@ const Projects = () => {
     },
     {
       title: "Online News Portal",
-      imageUrl: projectImg7,
+      imageUrl: projectImg5,
       details: "Liferay",
     },
     {
