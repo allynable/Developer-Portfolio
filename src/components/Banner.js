@@ -22,10 +22,14 @@ const Banner = () => {
             <br />
             <span className="tagline">Welcome to my Portfolio</span>
             <p>
-              I am an aspiring full stack web developer currently pursuing my
-              Master's in Software Engineering at Lithan EduCLaaS, Singapore. I
-              am passionate about creating innovative and efficient solutions,
-              particularly in backend development. <br />
+              A knowledgeable Full-Stack Web Developer with a Bachelor’s degree
+              in Information Systems. I am passionate about leveraging
+              technology to transform the way we live, work, and communicate. I
+              have strong experience in developing applications using Spring
+              Boot, ReactJS, HTML, CSS, JavaScript, Bootstrap, and MySQL.
+              Drawing from a technical background combined with administrative
+              experience, I offer a versatile skill set that contributes to
+              effective teamwork and exceptional digital solutions. <br />
               In this portfolio, you will find a collection of projects that
               showcase my skills. Each project demonstrates my proficiency in
               working with various programming languages and technologies and my
@@ -42,7 +46,7 @@ const Banner = () => {
         <Row>
           <Col xs={12} md={12} xl={7}>
             <Row>
-          <Col xs={12} md={6}>
+              <Col xs={12} md={6}>
                 <Row>
                   <h4>Find me in</h4>
                 </Row>
@@ -81,7 +85,7 @@ const Banner = () => {
                   </Col>
                 </Row>
               </Col>
-              </Row>
+            </Row>
           </Col>
         </Row>
       </Container>
