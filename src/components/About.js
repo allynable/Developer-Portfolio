@@ -17,12 +17,6 @@ const About = () => {
             <Col s={12} md={6} className="about-left">
               <h3 className="about-title">Education</h3>
               <AboutCard
-                title="Post Graduate Diploma in Software Engineering"
-                details="Lithan EduCLaaS, Singapore"
-                date="December 2022 - June 2023"
-                content={[]}
-              ></AboutCard>
-              <AboutCard
                 title="Bachelor of Science in Information Systems"
                 details="University of Negros Occidental Recoletos"
                 date="June 2013 - March 2017"
