@@ -6,10 +6,17 @@ import projectImg3 from "../assets/img/prcbbmis-banner.png";
 import projectImg4 from "../assets/img/tumandok-banner.png";
 import projectImg5 from "../assets/img/online-portal.png";
 import projectImg6 from "../assets/img/kyn-react.png";
+import projectImg7 from "../assets/img/MealsOnWheels.png";
 import { ProjectCard } from "./ProjectCard";
 import "../assets/styles/projects.css";
 const Projects = () => {
   const projects = [
+    {
+      title: "Meals On Wheels",
+      imageUrl: projectImg7,
+      details: "ReactJs, Bootstrap, Spring Boot",
+      githubLink: "https://github.com/allynable/MerryMeals"
+    },
     {
       title: "Know-Your-Neighborhood",
       imageUrl: projectImg6,
